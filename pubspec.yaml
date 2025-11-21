@@ -1,11 +1,11 @@
 name: madshop_ui_kalinicheva
-description: "A new Flutter project."
+description: "MAD Shop UI"
 publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.2
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
@@ -36,6 +36,6 @@ flutter:
         - asset: assets/fonts/Poppins-Medium.ttf
           weight: 500
 
-    - family: NunitoSans
+    - family: Nunito Sans
       fonts:
         - asset: assets/fonts/NunitoSans-Regular.ttf

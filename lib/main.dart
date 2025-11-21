@@ -13,7 +13,7 @@ class MadShopApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MAD Shop',
-      home: const SplashScreen(), 
+      home: const SplashScreen(),
     );
   }
 }
